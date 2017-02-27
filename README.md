@@ -27,3 +27,9 @@
 ## Get Started
     1. Open a new Python file
     2. Follow live demo
+
+## Math
+    Basic: P(y | x) = P(x, y) / P(x) = P(x | y) * P(y) / P(x)
+    Naive Bayes: P(Label | Feature_1, Feature_2, ... , Feature_n)
+    = P(Feature_1, Feature_2, ... , Feature_n, Label) / P(Feature_1, Feature_2, ... , Feature_n)
+    = P(Label) * P(Feature_1 | Label) * P(Feature_2 | Label) * ... * P(Feature_n | Label) * Constant
